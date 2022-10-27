@@ -1,0 +1,134 @@
+body{
+  width: 100%;
+}
+
+.main {
+  background-image: url('./myAsset/background.jpg');
+}
+/*header style starts here*/
+.header {
+display: flex;
+padding: 10px;
+background-color: yellowgreen;
+margin-bottom: 20px;
+}
+
+
+.head-link {
+  margin-left: 660px;
+  
+  display: flex;
+  justify-content: right;
+  
+}
+ul{
+  gap: 25px;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  text-decoration: aqua;
+  justify-content: center;
+}
+
+li {
+  text-decoration: none;
+}
+a:hover{
+  background-color: rgb(87, 79, 79);
+  
+}
+a {
+  text-decoration: none;
+}
+/*header ends here*/
+
+.main-image {
+  width: 100%;
+}
+.about-image {
+  width: 200px;
+}
+
+.about-text {
+  width: 300px;
+  font-size: 20px;
+  color: brown;
+  
+}
+.about {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 30px;
+ 
+}
+
+.project-holder {
+  width: 100%;
+}
+.title {
+  
+  font-size: 20px;
+}
+
+.my-project {
+
+  display: flex;
+  gap: 10px;
+  width: 200px;
+  
+  
+}
+
+.text {
+  align-items: center;
+  width: 200px;
+  gap: 50px
+  ;
+}
+
+.logo {
+  font-style:unset;
+  color: white;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(110, 124, 206);
+}
+.holder{
+  
+  
+}
+.holder.email{
+
+}
+.pnumber{
+
+}
+input{
+  padding: 10px;
+  margin-left: 30px;
+}
+.contact-div {
+  display: flex;
+  gap: 10px;
+}
+button {
+  color: black;
+  font-size: 12px;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(0, 185, 222);
+  color: whitesmoke;
+  padding: 2px;
+}
